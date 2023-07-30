@@ -122,15 +122,15 @@ const Home = ({ contract }) => {
                 </Card.Footer>
               </Card>
             </div>
-          </main >
-        </div >
+          </main>
+        </div>
         : (
           <main style={{ padding: "1rem 0" }}>
             <h2>No listed assets</h2>
           </main>
         )}
 
-    </div >
+    </div>
   );
 }
 export default Home
